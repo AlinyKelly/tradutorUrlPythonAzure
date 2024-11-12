@@ -1,6 +1,8 @@
 # URL Translator
 
-Este repositório contém um código Python que realiza a extração e tradução automática de artigos do site Dev.to, utilizando a API do Azure OpenAI para traduzir apenas o conteúdo relevante, excluindo seções desnecessárias como comentários. Foi desenvolvido durante o Bootcamp Microsoft AI-102 promovido pela DIO.
+Este repositório contém um código Python que realiza a extração e tradução automática de artigos do site Dev.to, utilizando a API do Azure OpenAI para traduzir apenas o conteúdo relevante, excluindo seções desnecessárias como comentários e formatando o resultado para Markdown.
+
+Desenvolvido durante o Bootcamp Microsoft AI-102 promovido pela DIO.
 
 ## Índice
 
