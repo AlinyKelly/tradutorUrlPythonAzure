@@ -68,7 +68,7 @@ def translate_text_in_chunks(text, lang):
     for chunk in text_chunks:
         messages = [
             ("system", "Você atua como tradutor de textos"),
-            ("user", f"Traduza o seguinte trecho para o idioma {lang}:\n\n{chunk}")
+            ("user", f"Traduza o seguinte trecho para o idioma {lang} e formate o resultado em Markdown:\n\n{chunk}")
         ]
 
         try:
